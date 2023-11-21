@@ -6,11 +6,11 @@
 }
 
 h1 {
-    margin-bottom: 20px; /* Adjust the value to increase or decrease the distance */
+    margin-bottom: 20px;
 }	
 
 h2 {
-    margin-top: 20px; /* Adjust the value to increase or decrease the distance */
+    margin-top: 20px;
 }
 
 .hero {
@@ -18,17 +18,17 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Set the height to take up the full viewport height */
+    height: 100vh;
     background-color: #FF3CAC;
     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
     color: #dad3f0;
 }
 
 .container {
-    width: 60%; /* Adjust the width as needed */
-    max-width: 800px; /* Set a maximum width if necessary */
-    height: 150px; /* Adjust the height as needed */
-    margin: 0 auto; /* Center the container horizontally */
+    width: 60%;
+    max-width: 800px;
+    height: 150px;
+    margin: 0 auto;
     text-align: center;
 }
 
