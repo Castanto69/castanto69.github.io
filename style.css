@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 20px; /* Adjust the value to increase or decrease the distance */
+}	
+
+h2 {
+    margin-top: 20px; /* Adjust the value to increase or decrease the distance */
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height to take up the full viewport height */
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    color: #dad3f0;
+}
+
+.container {
+    width: 60%; /* Adjust the width as needed */
+    max-width: 800px; /* Set a maximum width if necessary */
+    height: 150px; /* Adjust the height as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center;
+}
+
+.clock {
+    width: 100%;
+    height: 100%;
+    background: rgba(28, 68, 100, 0.25);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(40px);
+}
+
+.clock span {
+    font-size: 80px;
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.clock span::after {
+    font-size: 16px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#days::after {
+    content: 'GIORNI';
+}
+
+#hrs::after {
+    content: 'ORE';
+}
+
+#min::after {
+    content: 'MINUTI';
+}
+
+#sec::after {
+    content: 'SECONDI';
+}
