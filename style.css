@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+    scrollbar-color: rgba(255, 255, 255, .1) #191d21;
+}
+
+body {
+    overflow: hidden;
+}
+
+*::-webkit-scrollbar {
+    width: 0;
+}
+
+html,
+body,
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #121212;
+    font-size: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.hour {
+    line-height: 90%;
+    font-size: 120%;
+}
+
+.brown {
+    color: brown;
+}
+
+.innerContainer {
+    color: white;
+    align-self: center;
+    line-height: 88%;
+    font-size: 475%;
+}
+
+.countdown_stats {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 100%;
+    font-size: 20%;
+}
+
+.clock {
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 100%;
+    font-size: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 80%;
+    }
+    .countdown_stats {
+        line-height: 100%;
+        font-size: 30%;
+    }
+}

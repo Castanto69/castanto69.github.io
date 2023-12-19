@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fine della scuola</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="icon" href="icon.png"> -->
+    <script src="jquery-3.6.0.slim.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="innerContainer">
+            <span class="countdown" style="display: none;">
+                È TEMPO DI SCUOLA <br>
+                <span class="tempo_rimanente"></span> <br>
+            <span class="medium">ORE RIMANENTI</span> <br> ALLA <span class="bold brown">FINE</span>
+            </span>
+            <span class="countdown_stats" style="display: none;">
+                Tempo trascorso: <br>
+                <div class="stats_hours"></div>
+                <div class="stats_percentage"></div>
+            </span>
+            <span class="tempo_scaduto" style="display: none;">
+                FINE <br>
+                DELLA <br>
+                <span class="bold brown">SCUOLA</span>
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    COUNTDOWN();
+</script>
