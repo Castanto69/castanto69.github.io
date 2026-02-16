@@ -27,7 +27,7 @@ function itsStillGoing() {
     } else return false;
 }
 const nstart = new Date("01/05/2026" + " 00:00:00").getTime();
-const dstart = new Date("04/04/2026" + " 00:00:00").getTime();
+const dstart = new Date("04/02/2026" + " 00:00:00").getTime();
 const mlenght = dstart - nstart;
 
 function COUNTDOWN() {
@@ -49,5 +49,6 @@ function COUNTDOWN() {
         setTimeout(COUNTDOWN, 250);
     }
 };
+
 
 
