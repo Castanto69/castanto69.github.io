@@ -26,8 +26,8 @@ function itsStillGoing() {
         return true;
     } else return false;
 }
-const nstart = new Date("04/06/2026" + " 00:00:00").getTime();
-const dstart = new Date("07/11/2026" + " 00:00:00").getTime();
+const nstart = new Date("08/29/2026" + " 00:00:00").getTime();
+const dstart = new Date("12/21/2026" + " 00:00:00").getTime();
 const mlenght = dstart - nstart;
 
 function COUNTDOWN() {
